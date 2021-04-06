@@ -1,0 +1,107 @@
+#navbarCollapse a {
+    font-size: 18px;  
+    color: whitesmoke;
+    margin-right: 30px;
+}
+#navbarCollapse a:hover {
+    color: #f7b874;
+    cursor: pointer;
+    text-decoration: none;
+}
+.list-unstyled a {
+    color: whitesmoke;
+    font-size: small;
+}
+.list-unstyled a:hover {
+    color: #f7b874;
+    cursor: pointer;
+}
+.text-center a {
+    color: whitesmoke;
+}
+.text-center a:hover {
+    color:#f7b874;
+    cursor: pointer;
+    text-decoration: none;
+}
+.col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#heading {
+    text-align: center;
+    margin-top: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px 20px;
+}
+
+  /* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* Responsive columns */
+@media screen and (max-width: 700px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+    /* Style the counter cards */
+.carousel-item .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    font-size: 15px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+.columns {
+    float: left;
+    width: 33.33%;
+    padding: 45px 40px;
+    text-align: center;
+}
+.rows {
+    margin: 0 -5px;
+    padding-left: 50px;
+}
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 700px) {
+    .columns {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 26px;
+    font-size: 16px;
+    text-align: left;
+    background-color:white;
+    border-radius: 18%;
+}
+#clink {
+    color: black;
+    text-decoration: none;
+    font-size: 16.5px;
+}
